@@ -1,5 +1,7 @@
-import Reveal from '@/components/ui/Reveal';
-import { VIDEO_CV_YOUTUBE_ID } from '@/data/siteConfig';
+// import Reveal from '@/components/ui/Reveal';
+// import { VIDEO_CV_YOUTUBE_ID } from '@/data/siteConfig';
+import { VIDEO_CV_YOUTUBE_ID } from '../../data/siteConfig';
+import Reveal from '../ui/Reveal';
 
 export default function VideoCV() {
   return (

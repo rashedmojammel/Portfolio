@@ -1,6 +1,9 @@
-import Reveal from '@/components/ui/Reveal';
-import { renderBold } from '@/components/ui/textFormat';
-import { games, movies } from '@/data/hobbies';
+// import Reveal from '@/components/ui/Reveal';
+// import { renderBold } from '@/components/ui/textFormat';
+// import { games, movies } from '@/data/hobbies';
+import { games, movies } from '../../data/hobbies';
+import Reveal from '../ui/Reveal';
+import { renderBold } from '../ui/textFormat';
 
 export default function Hobbies() {
   return (

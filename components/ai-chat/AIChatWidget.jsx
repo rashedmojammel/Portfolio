@@ -1,7 +1,8 @@
 'use client';
 
 import { useEffect, useRef, useState } from 'react';
-import { RESPONSES, FALLBACK_RESPONSES, SUGGESTED_QUESTIONS } from '@/data/aiResponses';
+import { FALLBACK_RESPONSES, RESPONSES, SUGGESTED_QUESTIONS } from '../../data/aiResponses';
+// import { RESPONSES, FALLBACK_RESPONSES, SUGGESTED_QUESTIONS } from '@/data/aiResponses';
 
 function getResponse(text, fallbackIndexRef) {
   const lower = text.toLowerCase();

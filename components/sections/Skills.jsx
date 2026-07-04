@@ -1,7 +1,9 @@
 'use client';
 
-import Reveal from '@/components/ui/Reveal';
-import { skillCategories } from '@/data/skillsData';
+import { skillCategories } from '../../data/skillsData';
+// import Reveal from '@/components/ui/Reveal';
+// import { skillCategories } from '@/data/skillsData';
+import Reveal from '../ui/Reveal';
 
 function handleShimmerMove(e) {
   const card = e.currentTarget;

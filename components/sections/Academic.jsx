@@ -1,5 +1,5 @@
 import Reveal from '@/components/ui/Reveal';
-import { academicHighlights } from '@/data/academicHighlights';
+import { academicHighlights } from '../../data/academicHighlights';
 
 export default function Academic() {
   return (

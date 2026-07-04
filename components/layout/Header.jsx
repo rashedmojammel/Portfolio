@@ -1,7 +1,8 @@
 'use client';
 
 import { useEffect, useRef, useState } from 'react';
-import { NAV_LINKS, RESUME_PDF, CV_PDF } from '@/data/siteConfig';
+import { CV_PDF, NAV_LINKS, RESUME_PDF } from '../../data/siteConfig';
+// import { NAV_LINKS, RESUME_PDF, CV_PDF } from '@/data/siteConfig';
 
 export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);

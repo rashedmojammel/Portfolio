@@ -1,5 +1,7 @@
-import Reveal from '@/components/ui/Reveal';
-import { certificates } from '@/data/certificates';
+// import Reveal from '@/components/ui/Reveal';
+// import { certificates } from '@/data/certificates';
+import { certificates } from '../../data/certificates';
+import Reveal from '../ui/Reveal';
 
 export default function Certificates() {
   return (

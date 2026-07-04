@@ -1,9 +1,12 @@
 'use client';
 
 import { useState } from 'react';
-import Reveal from '@/components/ui/Reveal';
-import ProjectModal from '@/components/modals/ProjectModal';
-import { projects } from '@/data/projects';
+// import Reveal from '@/components/ui/Reveal';
+// import ProjectModal from '@/components/modals/ProjectModal';
+// import { projects } from '@/data/projects';
+import ProjectModal from '../modals/ProjectModal';
+import Reveal from '../ui/Reveal';
+import { projects } from '../../data/projects';
 
 function handleTiltMove(e) {
   const card = e.currentTarget;

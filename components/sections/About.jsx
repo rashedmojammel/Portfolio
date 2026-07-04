@@ -1,10 +1,14 @@
 'use client';
 
 import { useState } from 'react';
-import Reveal from '@/components/ui/Reveal';
-import EduModal from '@/components/modals/EduModal';
-import { education, basicSkills, softSkills } from '@/data/education';
-import { CV_PDF } from '@/data/siteConfig';
+// import Reveal from '@/components/ui/Reveal';
+// import EduModal from '@/components/modals/EduModal';
+// import { education, basicSkills, softSkills } from '@/data/education';
+// import { CV_PDF } from '@/data/siteConfig';
+import EduModal from '../modals/EduModal';
+import Reveal from '../ui/Reveal';
+import { basicSkills, education, softSkills } from '../../data/education';
+import { CV_PDF } from '../../data/siteConfig';
 
 const TABS = [
   { id: 'education', label: 'Education' },
