@@ -1,0 +1,113 @@
+// Skill category cards in the "Earned Skills" section.
+import {
+  FaLaptopCode,
+  FaHtml5,
+  FaCss3Alt,
+  FaJs,
+  FaBootstrap,
+  FaServer,
+  FaNodeJs,
+  FaPhp,
+  FaDatabase,
+  FaMicrochip,
+  FaJava,
+  FaPython,
+  FaTools,
+  FaGitAlt,
+  FaGithub,
+  FaDocker,
+} from 'react-icons/fa';
+import {
+  SiNextdotjs,
+  SiTailwindcss,
+  SiTypescript,
+  SiExpress,
+  SiNestjs,
+  SiDotnet,
+  SiMongodb,
+  SiPostgresql,
+  SiMysql,
+  SiScikitlearn,
+  SiPandas,
+  SiNumpy,
+  SiPostman,
+  SiVercel,
+  SiVisualstudiocode,
+} from 'react-icons/si';
+import { VscVscode } from 'react-icons/vsc';
+
+export const skillCategories = [
+  {
+    icon: FaLaptopCode,
+    title: 'Frontend',
+    desc: 'Building responsive, interactive and visually polished user interfaces.',
+    tags: [
+      { icon: SiNextdotjs, label: 'Next.js' },
+      { icon: FaJs, label: 'React.js' },
+      { icon: FaHtml5, label: 'HTML5' },
+      { icon: FaCss3Alt, label: 'CSS3' },
+      { icon: SiTailwindcss, label: 'Tailwind CSS' },
+      { icon: FaBootstrap, label: 'Bootstrap' },
+    ],
+  },
+  {
+    icon: FaServer,
+    title: 'Backend',
+    desc: 'Developing robust server-side logic, REST APIs and scalable services.',
+    tags: [
+      { icon: FaNodeJs, label: 'Node.js' },
+      { icon: SiExpress, label: 'Express.js' },
+      { icon: SiNestjs, label: 'NestJS' },
+      { icon: SiDotnet, label: 'ASP.NET Core' },
+    ],
+  },
+  {
+    icon: FaMicrochip,
+    title: 'Languages',
+    desc: 'Strong foundation across modern and systems-level programming languages.',
+    tags: [
+      { icon: FaJs, label: 'JavaScript' },
+      { icon: SiTypescript, label: 'TypeScript' },
+      { icon: FaJava, label: 'Java' },
+      { icon: FaPhp, label: 'PHP' },
+      { icon: FaMicrochip, label: 'C++' },
+      { icon: FaPython, label: 'Python' },
+    ],
+  },
+  {
+    icon: FaDatabase,
+    title: 'Databases',
+    desc: 'Designing and managing relational and NoSQL data stores.',
+    tags: [
+      { icon: SiMongodb, label: 'MongoDB' },
+      { icon: SiPostgresql, label: 'PostgreSQL' },
+      { icon: SiMysql, label: 'MySQL' },
+      { icon: FaDatabase, label: 'SQL Server' },
+    ],
+  },
+  {
+    icon: SiScikitlearn,
+    title: 'Machine Learning',
+    desc: 'Data analysis, preprocessing and model building with Python tooling.',
+    tags: [
+      { icon: SiScikitlearn, label: 'Scikit-learn' },
+      { icon: SiPandas, label: 'Pandas' },
+      { icon: SiNumpy, label: 'NumPy' },
+      { label: 'Data Analysis' },
+      { label: 'Data Preprocessing' },
+    ],
+  },
+  {
+    icon: FaTools,
+    title: 'Tools',
+    desc: 'Industry-standard tools for development, deployment and productivity.',
+    tags: [
+      { icon: FaGitAlt, label: 'Git' },
+      { icon: FaGithub, label: 'GitHub' },
+      { icon: FaDocker, label: 'Docker' },
+      { icon: SiPostman, label: 'Postman' },
+      { icon: VscVscode, label: 'VS Code' },
+      { icon: SiVercel, label: 'Vercel' },
+    ],
+  },
+];

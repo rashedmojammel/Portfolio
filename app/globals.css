@@ -1,0 +1,6 @@
+/* Global stylesheet entry point.
+   The original design is preserved as-is in styles.css.
+   theme-aurora.css is an alternate theme — uncomment the import below to use it. */
+
+@import './styles.css';
+/* @import './theme-aurora.css'; */
